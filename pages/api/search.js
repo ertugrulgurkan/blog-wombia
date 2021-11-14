@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 
+
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (req, res) => {
   let posts;
