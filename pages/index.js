@@ -1,10 +1,10 @@
-import Layout from "../components/layout";
 import fs from "fs";
 import path from "path";
 import Link from "next/link";
 import matter from "gray-matter";
-import Post from "../components/Post";
 import { sortByDate } from "../utils";
+import Post from "../components/Post";
+import Layout from "../components/layout";
 
 export default function HomePage({ posts }) {
   return (
