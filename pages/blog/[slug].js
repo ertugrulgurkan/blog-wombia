@@ -31,7 +31,9 @@ export default function PostPage({
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={author_image}
-              alt=""
+              alt="author image"
+              width={128}
+              height={128}
               className="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block"
             />
             <h4>{author}</h4>
