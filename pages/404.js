@@ -1,6 +1,5 @@
-import Link from "next/link";
 import Image from "next/image";
-import Layout from "../components/Layout";
+import Layout from "@/components/Layout";
 
 export default function NotFoundPage() {
   return (

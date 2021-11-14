@@ -1,12 +1,11 @@
 import fs from "fs";
 import path from "path";
-import Link from "next/link";
 import matter from "gray-matter";
-import Layout from "../../../components/Layout";
-import { sortByDate } from "../../../utils";
-import Post from "../../../components/Post";
-import Pagination from "../../../components/Pagination";
-import { POST_PER_PAGE } from "../../../config"
+import Layout from "@/components/Layout";
+import { sortByDate } from "@/utils/index";
+import Post from "@/components/Post";
+import Pagination from "@/components/Pagination";
+import { POST_PER_PAGE } from "/config/index";
 
 export default function BlogPage({ posts, numPages, currentPage }) {
   return (
@@ -72,7 +71,6 @@ export async function getStaticPaths({ params }) {
     });
   }
 
-  console.log(paths);
   return {
     paths,
     fallback: false,
