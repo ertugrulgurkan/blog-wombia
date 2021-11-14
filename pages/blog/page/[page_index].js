@@ -10,7 +10,7 @@ import CategoryList from "@/components/CategoryList";
 export default function BlogPage({ posts, numPages, currentPage, categories }) {
   return (
     <Layout>
-      <div className="flex justify-between">
+      <div className="flex justify-between flex-col md:flex-row">
         <div className="md:w-3/4 mr-10">
           <h1 className="text-5xl border-b-4 p-5 font-bold">Blog</h1>
 
@@ -37,8 +37,8 @@ export async function getStaticProps({ params }) {
 
   const posts = getPosts();
 
-  const categories = posts.map((post) => post.frontmatter.category)
-  const uniqueCategories = [...new Set(categories)]
+  const categories = posts.map((post) => post.frontmatter.category);
+  const uniqueCategories = [...new Set(categories)];
 
   const numPages = Math.ceil(files.length / POST_PER_PAGE);
   const pageIndex = page - 1;
