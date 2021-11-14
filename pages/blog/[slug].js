@@ -15,7 +15,7 @@ export default function PostPage({
     <Layout title={title}>
       <Link href="/blog">
         <a className="font-bold mx-5 cursor-pointer  hover:text-indigo-500">
-          Go Back
+          Geri Dön
         </a>
       </Link>
       <div className="w-full px-10 py-6 bg-white rounded-lg shadow-md mt-6">

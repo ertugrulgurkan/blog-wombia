@@ -16,7 +16,7 @@ export default function Header({ title, keywords, description, children }) {
             <a className="mx-5 cursor-pointer  hover:text-indigo-300">Blog</a>
           </Link>
           <Link href="/about">
-            <a className="mx-5 cursor-pointer  hover:text-indigo-300">About</a>
+            <a className="mx-5 cursor-pointer  hover:text-indigo-300">Hakkımda</a>
           </Link>
         </nav>
       </div>
