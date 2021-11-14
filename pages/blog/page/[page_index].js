@@ -1,11 +1,11 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import Layout from "@/components/Layout";
+import { POST_PER_PAGE } from "@/config/index";
 import { sortByDate } from "@/utils/index";
+import Layout from "@/components/Layout";
 import Post from "@/components/Post";
 import Pagination from "@/components/Pagination";
-import { POST_PER_PAGE } from "/config/index";
 
 export default function BlogPage({ posts, numPages, currentPage }) {
   return (
