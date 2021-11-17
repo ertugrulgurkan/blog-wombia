@@ -25,7 +25,7 @@ export default function Header({ title, keywords, description, children }) {
 }
 
 Header.defaultProps = {
-  title: "Blog Wombia",
+  title: "Wombia",
   keywords: "",
   description: "",
 };
