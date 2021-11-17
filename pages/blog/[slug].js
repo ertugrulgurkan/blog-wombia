@@ -7,7 +7,7 @@ import Layout from "@/components/Layout";
 import CategoryLabel from "@/components/CategoryLabel";
 
 export default function PostPage({
-  frontmatter: { title, category, date, cover_image, author, author_image },
+  frontmatter: { title, category, date, cover_image, author, author_image , cover_in_article },
   content,
   slug,
 }) {
@@ -24,7 +24,10 @@ export default function PostPage({
           <CategoryLabel>{category}</CategoryLabel>
         </div>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={cover_image} alt="" className="w-full rounded" />
+
+        {cover_in_article && 
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={cover_image} alt="" className="w-full rounded" /> }
 
         <div className="flex justify-between items-center bg-gray-100 p-2 my-8">
           <div className="flex items-center">

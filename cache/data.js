@@ -1,1 +1,1 @@
-export const posts = [{"slug":"hello-world","frontmatter":{"title":"Merhaba","date":"Nov 17, 2021","excerpt":"Merhaba burası benim kişisel blogum.","cover_image":"/images/posts/img1.jpg","category":"Genel","author":"Ertuğrul","author_image":"/images/authors/author.jpg"}}]
+export const posts = [{"slug":"hello-world","frontmatter":{"title":"Merhaba","date":"Nov 17, 2021","excerpt":"Merhaba burası benim kişisel blogum.","cover_image":"/images/posts/img1.jpg","category":"Genel","author":"Ertuğrul","cover_in_article":false,"author_image":"/images/authors/author.jpg"}}]

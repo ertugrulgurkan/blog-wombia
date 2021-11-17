@@ -5,6 +5,7 @@ excerpt: 'Merhaba burası benim kişisel blogum.'
 cover_image: '/images/posts/img1.jpg'
 category: 'Genel'
 author: 'Ertuğrul'
+cover_in_article: false
 author_image: '/images/authors/author.jpg'
 ---
 
