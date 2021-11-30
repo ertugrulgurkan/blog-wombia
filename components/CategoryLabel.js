@@ -3,8 +3,8 @@ import Link from 'next/link'
 export default function CategoryLabel({ children }) {
   const colorKey = {
     Genel: 'yellow',
-    Spor: 'blue',
-    Filmler: 'green',
+    Spor: 'green',
+    Filmler: 'blue',
     Diziler: 'purple',
     Yazilim: 'red',
   }
